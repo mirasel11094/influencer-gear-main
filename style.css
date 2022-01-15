@@ -4,6 +4,9 @@
  body {
      font-family: 'Poppins', sans-serif;
  }
+ /* =====================
+========common css=======
+======================= */
  
  header {
      padding: 30px;
@@ -19,7 +22,7 @@
      display: flex;
      justify-content: space-between;
      height: 70px;
-     align-items: ;
+     align-items: 0 30px;
  }
  
  .navigation {
@@ -40,8 +43,11 @@
      padding-right: 10px;
  }
  
- .logo img {
-     width: 25px;
-     height: 25px;
-     padding: 26px;
+ .icon-bar {
+     padding: 25px;
+ }
+ 
+ .icon-bar a {
+     padding: 15px;
+     color: #3A3A3A;
  }
